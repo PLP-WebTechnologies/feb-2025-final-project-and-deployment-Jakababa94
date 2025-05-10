@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chakula Kenya - Authentic Kenyan Food Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ </head>
+ <body>
+     <!-- Header with Navigation -->
+     <header>
+        <div class="logo">Chakula Kenya</div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-icons">
+          <button id="dark-mode-toggle" class="dark-mode-btn">🌙</button>
+          <button class="hamburger-menu" id="hamburger-menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        </div>
+     </header>
+
+     <!-- Hero Section -->
+     <section class="hero" id="home">
+        <h1>Explore the Rich Tastes of Kenya</h1>
+        <p>Discover authentic Kenyan recipes, cooking techniques, and the stories behind our beloved dishes</p>
+        <a href="#recipes" class="btn-view-recipe">Explore Recipes</a>
+     </section>
+
+     <!-- Featured Recipes Section -->
+     <section class="featured" id="recipes">
+        <h2 class="section-title">Featured Recipes</h2>
+        <div class="recipes-container">
+            <!-- Recipe Card 1 -->
+            <div class="recipe-card">
+                <div class="recipe-image" style="background-color: #f5b87a;">
+                    <img src="https://i.pinimg.com/736x/12/e2/9b/12e29b939b777acea22cec7cbf9ed27a.jpg" alt="nyama-choma">
+                </div>
+                <div class="recipe-content">
+                    <h3>Nyama Choma</h3>
+                    <p>Delicious grilled meat seasoned with local spices, served with kachumbari salad</p>
+                    <div class="recipe-meta">
+                        <span>Prep time: 45 mins</span>
+                        <span>⭐ 4.8/5</span>
+                    </div>
+                    <a href="#" class="btn-view-recipe" data-recipe="nyama-choma">View Recipe</a>
+                </div>
+            </div>
+            
+            <!-- Recipe Card 2 -->
+            <div class="recipe-card">
+                <div class="recipe-image" style="background-color: #a0c15a;">
+                    <img src="https://i.pinimg.com/736x/3a/c5/ba/3ac5ba934eb9d1db3c679a88afc87126.jpg" alt="sukuma-wiki">
+                </div>
+                <div class="recipe-content">
+                    <h3>Sukuma Wiki</h3>
+                    <p>Nutritious collard greens stir-fried with onions, tomatoes and aromatic spices</p>
+                    <div class="recipe-meta">
+                        <span>Prep time: 15 mins</span>
+                        <span>⭐ 4.6/5</span>
+                    </div>
+                    <a href="#" class="btn-view-recipe" data-recipe="sukuma-wiki">View Recipe</a>
+                </div>
+            </div>
+            
+            <!-- Recipe Card 3 -->
+            <div class="recipe-card">
+                <div class="recipe-image" style="background-color: #e2b887;">
+                    <img src="https://i.pinimg.com/736x/9c/02/89/9c0289d0a3b37b50f7ce361c69f6d63b.jpg" alt="chapati">
+                </div>
+                <div class="recipe-content">
+                    <h3>Chapati</h3>
+                    <p>Soft and layered flatbread that pairs perfectly with any Kenyan dish</p>
+                    <div class="recipe-meta">
+                        <span>Prep time: 1hr</span>
+                        <span>⭐ 4.9/5</span>
+                    </div>
+                    <a href="#" class="btn-view-recipe" data-recipe="chapati">View Recipe</a>
+                </div>
+            </div>
+            <!-- Recipe Card 4 -->
+            <div class="recipe-card">
+                <div class="recipe-image" style="background-color: #e2b887;">
+                    <img src="https://i.pinimg.com/736x/89/8f/8f/898f8f1b65ec7b0134c1dcdccabfe52a.jpg" alt="githeri">
+                </div>
+                <div class="recipe-content">
+                    <h3>Githeri</h3>
+                    <p>A hearty mixture of boiled maize and beans, Githeri is both nutritious and traditional.</p>
+                    <div class="recipe-meta">
+                        <span>Prep time: 1hr 30 mins</span>
+                        <span>⭐ 4.9/5</span>
+                    </div>
+                    <a href="#" class="btn-view-recipe" data-recipe="Githeri">View Recipe</a>
+                </div>
+            </div>
+        </div>
+     </section>
+    
+     <!-- About Section -->
+     <section class="about" id="about">
+       <div class="about-content">
+        <h2 class="section-title">About Chakula Kenya</h2>
+        <p>Welcome to Chakula Kenya, your ultimate guide to authentic Kenyan cuisine. We're passionate about sharing the rich culinary heritage of Kenya with the world.</p>
+        <p>Our mission is to preserve traditional recipes while inspiring creative modern interpretations of classic Kenyan dishes. Whether you're a seasoned chef or a curious food enthusiast, you'll find something to delight your taste buds here.</p>
+        <div id="more-info" style="display: none;">
+            <p>Kenyan cuisine reflects the country's diverse cultural heritage, with influences from indigenous African traditions, 
+                Arab traders, Indian immigrants, and European colonizers. The result is a vibrant food culture that celebrates 
+                local ingredients and unique cooking techniques.<br>
+                We also host cooking workshops, share tips for sourcing authentic Kenyan ingredients, and provide insights into the cultural significance of various dishes.<br>
+                Join us on this flavorful journey!
+            </p>
+        </div>
+        <button id="learn-more-btn" class="btn">Learn More</button>
+      </div>
+     </section>
+     <!-- Latest Blog Posts section -->
+     <section class="latest-posts" id="blog">
+        <h2 class="section-title">Latest From The Blog</h2>
+        <div class="post-grid">
+            <!-- Blog Post 1 -->
+            <div class="recipe-card">
+                <div class="recipe-image" style="background-color: #e56b1f;">
+                    <img src="https://i.pinimg.com/736x/f2/5b/a5/f25ba50e94d08cbb54a550ddbabaf2ef.jpg" alt="ugali">
+                </div>
+                <div class="recipe-content">
+                    <h3>The History of Ugali: Kenya's Staple Food</h3>
+                    <p>Discover the cultural significance and history behind Kenya's most important dish</p>
+                    <div id="read-more-content" style="display: none;">
+                            <h3>Ugali</h3>
+                            <p>Ugali is a staple food in Kenya and has a long history tied to the agricultural and cultural practices of the communities in the region. 
+                            Here's an overview of its history and significance:<br></p>
+
+                            <h3>Origins of Ugali in Kenya</h3>
+                            <h4>Introduction of Maize (Corn):</h4>
+                            <p>Ugali is primarily made from maize flour (cornmeal), but before maize was introduced to Africa, similar stiff porridges were made from sorghum, millet, or finger millet (known as ugali wa wimbi or uji in Kenya).
+                            Maize was brought to Africa by Portuguese traders in the 16th century but became widely cultivated in Kenya during the colonial period (late 19th to early 20th century).
+                            The British colonial government promoted maize farming because it was easy to grow, high-yielding, and could be stored for long periods.</p>
+                            <h4>Replacement of Traditional Grains:</h4>
+                            <p>Before maize became dominant, communities like the Kikuyu, Luhya, Luo, and Kalenjin relied on sorghum, millet, and cassava for their staple foods.
+                            Colonial policies and market forces pushed farmers to shift to maize, making maize-based ugali the most common form.</p>
+                            <h4>Cultural Significance</h4>
+                            <p>Ugali is deeply embedded in Kenyan food culture and is eaten across all ethnic groups, though preparation methods and accompanying dishes vary.
+                            It is often served with vegetables (e.g., sukuma wiki), meat stews, fish (especially among the Luo community), or fermented milk (mursik among the Kalenjin).
+                            The name "ugali" comes from Swahili, but different communities have their own terms (e.g., obusuma among the Luhya, ngima among the Kikuyu).</p>
+                            <h4>Modern Ugali in Kenya</h4>
+                            <p>Today, ugali remains Kenya's most consumed dish, eaten in homes, restaurants, and even street food stalls.
+                            Due to health concerns over refined maize flour, some people are returning to traditional grains like sorghum and millet for a more nutritious version.
+                            The government has occasionally promoted alternative flours (e.g., cassava or potato flour blends) to reduce reliance on maize, especially during food shortages.</p>
+                            <h3>Conclusion</h3>
+                            <p>Ugali's history in Kenya reflects broader changes in agriculture, colonialism, and cultural adaptation. From traditional grain porridges to maize-based ugali, it has remained a symbol of Kenyan identity and resilience.</p>
+                            <p>Today, ugali is not just a food item; it represents the unity and diversity of Kenya's people, bringing together different communities around a shared meal.</p>  
+                    </div>
+                    <a href="#" class="read-more-btn">Read More</a>
+                </div>
+            </div>
+            
+              <!-- Blog Post 2 -->
+            <div class="recipe-card">
+                <div class="recipe-image" style="background-color: #e56b1f;">
+                    <img src="https://i.pinimg.com/736x/1c/4e/71/1c4e71c464d4291308fca8b07779afd9.jpg" alt="fried fish">
+                </div>
+                <div class="recipe-content">
+                    <h3>Exploring Regional Kenyan Cuisines</h3>
+                    <p>How geography and cultural diversity shape Kenya's rich food traditions</p>
+                    <div id="read-more-content" style="display: none;">
+                        <h3>Regional Cuisines of Kenya</h3>
+                        <p>
+                            Kenya's regional cuisines are diverse, reflecting the country's ethnic groups, geography, and agricultural practices. 
+                            Here's a breakdown of some iconic regional dishes, including Pilau, Mukimo, fish, and chicken preparations:
+                        </p>
+                        <h4>Coastal Kenya (Swahili Cuisine) – Pilau & Seafood</h4>
+                        <p>
+                            <strong>Influences:</strong>Arab, Indian, <br>
+                            <strong>Key Dishes:</strong><br>
+                            <strong>Pilau:</strong>A fragrant rice dish cooked with spices (cumin, cardamom, cinnamon, cloves), meat (goat, beef, or chicken), and sometimes potatoes.
+                             It's a festive dish served at weddings and Eid.<br>
+                            <strong>Biryani: </strong>Similar to Pilau but with more spices and layers of meat and rice.<br>
+                            <strong>Samaki wa Kupaka (Coconut Fish): </strong>Grilled or fried fish (often tilapia or kingfish) in a rich coconut-curry sauce.<br>
+                            <strong>Viazi Karai (Spicy Fried Potatoes):</strong> A popular street food.<br>
+                            <strong>Mahamri (Swahili Donuts):</strong> Sweet, coconut-flavored doughnuts.<br>
+                            <strong>Accompaniments:</strong> Kachumbari (tomato-onion salad), chutney, or tamarind sauce.<br>
+                        </p>
+                        <h4>Central Kenya (Kikuyu Cuisine)</h4>
+                        <p>
+                            <strong>Influences:</strong>Indigenous Kikuyu traditions.<br>
+                            <strong>Key Dishes:</strong><br>
+                           <strong> Mukimo</strong>: A mashed mixture of potatoes, green peas, and pumpkin leaves, often served with meat stews.<br>
+                            <strong>Githeri</strong>: A mix of boiled maize and beans, sometimes with added vegetables or meat.<br>
+                            <strong>Nyama Choma</strong>: Grilled meat (often goat or beef) served with kachumbari.<br>
+                            <strong>Irio</strong>: Similar to Mukimo but includes corn and is often served with meat.<br>
+                            <strong>Mutura</strong>: A blood sausage made with minced meat, blood, and spices, grilled or boiled.<br>
+                            <strong>Accompaniments</strong>: Kikuyu-style stews (beef or goat), ugali, or fermented porridge (ucuru wa mukio).<br>
+                        </p>
+                        <h4>Western Kenya (Luhya & Luo Cuisine)</h4>
+                        <h3>Luo Community (Lake Victoria Region)</h3>
+                        <p>
+                        <strong>Fried Tilapia (Whole Fish)</strong>: Served with ugali and kachumbari or osuga (a traditional Luo spinach-like vegetable).<br>
+                        <strong>Omena (Silver Cyprinid)</strong>: Small dried fish fried or cooked in a tomato-onion sauce.<br>
+                        <strong>Chicken:Kuku Paka </strong>(Luo-style chicken in coconut milk).<br>
+                        <strong>Aliya</strong>: Smoked meat or fish, a delicacy.<br>
+                        </p>
+                        <h3>Luhya Community</h3>
+                        <p>
+                            <strong>Ingokho (Chicken)</strong>: Stewed or roasted, often served with ugali or tsimboka (a Luhya vegetable dish).<br>
+                            <strong>Busuma</strong>: A thicker version of ugali made from millet or sorghum.<br>
+                            <strong>Isikuti</strong>: A traditional Luhya chicken dish cooked with local spices.<br>
+                        </p>
+                        <h4>Rift Valley (Kalenjin & Maasai Cuisine) – Meat & Dairy</h4>
+                        <p>Influences: Pastoralist traditions
+                            Key Dishes:
+                            <strong>Nyama Choma (Grilled Meat)</strong>: Goat or beef, often served with ugali or kienyeji (traditional vegetables).<br>
+                            <strong>Mursik</strong>: Fermented milk mixed with charcoal ash (a Kalenjin specialty).<br>
+                            <strong>Kimyet (Blood & Meat Stew)</strong>: A traditional Maasai dish.<br>
+                            <strong>Chapati & Lentils</strong>: Common in urban areas.<br>
+                        </p>
+                        <h4> Eastern Kenya (Kamba & Coastal Hinterland)</h4>
+                        <p>Key Dishes:
+                            <strong>Wimbi (Finger Millet) Ugali</strong>: Nutritious alternative to maize ugali. <br>                          
+                            <strong>Kuku Kienyeji (Free-Range Chicken)</strong>: Stewed with local spices.<br>
+                            <strong>Muthokoi</strong>: A mix of peeled maize and beans, boiled and spiced. <br>     
+                        </p>
+                        <h4> Northern Kenya (Somali & Borana Cuisine)</h4>
+                        <p>Key Dishes:
+                            <strong>Chapati & Somali Rice</strong>: Fragrant rice cooked with meat and spices. <br>                         
+                            <strong>Nyirnyir (Camel Meat)</strong>: A spicy fried camel meat dish. <br>                     
+                            <strong>Canjeero (Somali Pancake)</strong>: Similar to Ethiopian injera.<br>
+                        </p>
+                    </div>
+                    <a href="#" class="read-more-btn">Read More</a>
+                </div>
+            </div>
+            
+            <!-- Blog Post 3 -->
+            <div class="recipe-card">
+                <div class="recipe-image" style="background-color: #f9c74f;">
+                    <img src="https://i.pinimg.com/736x/2a/17/8e/2a178eb372c2fb3f5c33b8e219771926.jpg" alt="spices">
+                </div>
+                <div class="recipe-content">
+                    <h3>Essential Spices in Kenyan Cooking</h3>
+                    <p>A guide to the flavors that make Kenyan cuisine unique and delicious</p>
+                    <div class="read-more" style="display: none;">
+                        <h3>Kenyan Spices and Flavoring Ingredients</h3>
+                        <p>
+                            Kenya has a rich culinary tradition that incorporates many local spices and flavoring ingredients. 
+                            Here are the key Kenyan spices and flavoring ingredients commonly used:
+                        </p>
+                        <h4>Common Kenyan Spices</h4>
+                        <p>
+                            <strong>Pilau Masala</strong> - A signature Kenyan spice blend used in pilau rice and other dishes, 
+                            typically containing cumin, cardamom, cloves, cinnamon, and black pepper. <br>
+                            <strong>Mchuzi Mix </strong>- A popular commercial flavoring powder used to enhance stews and soups. <br>
+                            <strong>Berbere</strong> - A spicy blend adopted from Ethiopian cuisine, containing chili peppers, garlic, ginger, and various spices. <br>
+                            <strong>Curry Powder</strong> - Widely used in Kenyan cooking, often with local variations.<br>
+                        </p>
+                        <h4>Indigenous Kenyan Flavoring Ingredients</h4>
+                        <p>
+                            <strong>Sukuma Wiki (Collard greens)</strong> - While primarily a vegetable, it adds distinctive flavor to many dishes. <br>
+                            <strong>Terere (Amaranth leaves) </strong>- Adds earthy flavors to soups and stews.<br>
+                            <strong>Dhania (Cilantro/Coriander)</strong> - Both seeds and leaves are used extensively.<br>
+                            <strong>Thyme </strong>- Widely cultivated and used fresh or dried.<br>
+                            <strong>Ginger </strong>- Used in many traditional dishes and beverages.<br>
+                            <strong>Garlic</strong> - Essential in most savory Kenyan dishes.<br>
+                            <strong>Onions </strong>- Form the base of most Kenyan dishes.<br>
+                        </p>
+                        <h4>Regional Kenyan Flavors</h4>
+                        <p>
+                            <strong>Royco </strong>- A popular commercial seasoning blend.<br>
+                            <strong>Tamarind </strong>- Used particularly in coastal cuisine.<br>
+                            <strong>Coconut</strong> - Milk and grated flesh are essential in coastal cooking.<br>
+                           <strong> Chili peppers</strong> - Various types are used for heat.<br>
+                        </p>
+                    </div>
+                    <a href="#" class="read-more-btn">Read More</a>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- Newsletter Section -->
+     <section class="newsletter">
+        <div class="newsletter-content">
+            <h2>Join Our Newsletter</h2>
+            <p>Subscribe to receive new recipes, cooking tips, and updates from Chakula Kenya</p>
+            <form class="newsletter-form" id="newsletter-form">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit" class="btn-view-recipe">Subscribe</button>
+            </form>
+        </div>
+     </section>
+
+     <!-- Footer -->
+     <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Chakula Kenya</h3>
+                <p>Celebrating the rich culinary heritage of Kenya through authentic recipes and stories.</p>
+                <div class="social-links">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com"><i class="fa-brands fa-x"></i></a>
+                    <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://tiktok.com"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#recipes">Recipes</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Have questions or feedback? We'd love to hear from you!</p>
+                <div class="contact-info">
+                    <a href="https://gmail.com"><i class="fa-solid fa-envelope"></i>hello@chakulakenya.com</a>
+                    <a href="https://whatsapp.com"><i class="fa-brands fa-whatsapp"></i>+254 721-805-204</a>
+                    <a href="https://maps.google.com"><i class="fa-solid fa-location-dot"></i>Nairobi, Kenya</a>
+                </div>
+                  
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2025 Chakula Kenya. All rights reserved.</p>
+        </div>
+     </footer>
+
+     <!-- Recipe Modal -->
+     <div class="modal" id="recipe-modal">
+        <div class="modal-content" id="modal-content">
+            <span class="close-btn">&times;</span>
+        </div>
+     </div>
+     <script src="script.js"></script>
+ </body>
+</html>

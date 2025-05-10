@@ -62,12 +62,12 @@ Chakula Kenya is a modern, responsive web application that showcases authentic K
 ### Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/chakula-kenya.git
+git clone https://github.com/PLP-WebTechnologies/feb-2025-final-project-and-deployment-Jakababa94.git
 ```
 
 2. Navigate to the project directory:
 ```bash
-cd chakula-kenya
+cd PLP-WebTechnologies/feb-2025-final-project-and-deployment-Jakababa94
 ```
 
 3. Open `index.html` in your web browser or use a local server:
@@ -141,8 +141,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Inspiration from traditional Kenyan cuisine
 
 ## Contact
-Job Otieno - [@github](https://github.com/Jakababa94)
-Project Link: [https://github.com/yourusername/chakula-kenya](https://github.com/yourusername/chakula-kenya)
+Job Otieno - [https://github.com/Jakababa94]
+Project Link: [https://github.com/PLP-WebTechnologies/feb-2025-final-project-and-deployment-Jakababa94.git]
 
 ---
 Made with ❤️ for Kenyan Cuisine

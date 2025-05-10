@@ -142,7 +142,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 Job Otieno - [https://github.com/Jakababa94]
-Project Link: [https://github.com/PLP-WebTechnologies/feb-2025-final-project-and-deployment-Jakababa94.git]
+Project Link: [https://plp-webtechnologies.github.io/feb-2025-final-project-and-deployment-Jakababa94/]
 
 ---
 Made with ❤️ for Kenyan Cuisine
